@@ -1,0 +1,297 @@
+
+  @font-face {
+    font-family: myFonts;
+    src: url(Absolut_Pro_Medium_reduced.ttf);
+}
+
+
+* {
+  font-family: myFonts;
+  box-sizing: border-box;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color:white;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 5px;
+  color: #b3003b;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color:  #b3003b;
+  color: white;
+ width: 100%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+
+  .ab{
+   font-size: 77%;
+  }
+}
+
+div{
+
+
+
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+a{
+text-decoration: none;
+color:black;
+font-weight: bold;
+width: 100%;
+}
+
+[class*="col-"] { float: left; padding: 10px; }
+
+.row:after { content: ""; clear: both; display: block; }
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+ 
+  border: none;
+  outline: none;
+  color:  #b3003b;
+  padding:5px;
+ font-weight: bold;
+ font-size: 12.5pt;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+ 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:  #b3003b;
+  width: 100%;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+min-width: 300px;
+ 
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+padding:5px;
+  font-weight: bold;
+
+ 
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:  #b3003b; width: 100%
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#slider { overflow:hidden; }
+
+
+#slider figure {
+
+
+position:relative;
+
+width: 500%;
+
+margin:0;
+
+left:0;
+
+animation: 20s slider infinite;
+
+ }
+
+
+ #slider figure img{
+
+float:left;
+
+width:20%;
+
+ }
+
+
+ @keyframes slider{  
+
+0%{
+left:0;
+}
+
+
+20%{
+
+left:0%;
+}
+
+25%{
+
+left:-100%;
+}
+
+
+45%{
+
+left:-100%;
+}
+
+
+50%{
+left:-200%;
+}
+
+
+70%{
+left:-200%;
+}
+
+
+75%{ left:-300%; }
+
+95%{ left:-300%; }
+
+100%{left:-400%; }
+
+
+
+     }
+
+
+.relative{
+
+  position: relative;
+
+  left:185px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+
+  font-size: 12pt;
+  width: 30%;
+  background-color: #b3003b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 150px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+border: 2px solid #b3003b;
+  color:#b3003b;
+}
+
+#color{
+  text-align: center;
+
+color: #b3003b;  
+
+}
+
+
+.bgimg{
+
+background-image: url(image/turnip.jpg);
+
+background-size: auto;
+}
+
+
+.op{
+
+  opacity: 0.85;
+}
+
+ @font-face {
+    font-family: myFont;
+    src: url(GreatVibes-Regular.ttf);
+}
+
+
+.heading{
+text-align: center; color:white;
+font-family: myFont;
+font-size: 30pt;
+
+}
+.header{
+  background-color: #b3003b;height: 100px;
+
+}
+
+
+.footer{
+
+background-color: #b3003b;
+
+}
+
+
+
+.ab{
+
+  height:200px;background-color:#b3003b;border: 2px solid white;
+}
